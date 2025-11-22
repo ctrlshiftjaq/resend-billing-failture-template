@@ -1,6 +1,6 @@
 # Sending a Billing Failure Email with Attachment using Next.js, React Email & Resend
 
-This is a simple example project for beginners showing how to send a **billing failure email** using [React Email](https://react.email/) and [Resend](https://resend.com/).  
+This is ab example project showing how to send a **billing failure email** using [React Email](https://react.email/) and [Resend](https://resend.com/).  
 It includes a styled email template, a PDF attachment, and links to this repo in the email footer.
 
 ---
@@ -8,8 +8,8 @@ It includes a styled email template, a PDF attachment, and links to this repo in
 ## Step 1: Clone & Install
 
 ```bash
-git clone https://github.com/ctrlshiftjaq/resend-billing-email-example.git
-cd resend-billing-email-example
+git clone [https://github.com/ctrlshiftjaq/resend-billing-email-template.git](https://github.com/ctrlshiftjaq/resend-billing-email-template.git)
+cd resend-billing-email-template
 npm install
 ```
 
