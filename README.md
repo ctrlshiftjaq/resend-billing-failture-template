@@ -50,7 +50,7 @@ The endpoint will send a sample billing failure email (with attachment) to a tes
 
 - The API route (`/api/send-billing-failure`) sends a pre-filled, example billing failure email.
 - The email template is written in React Email (see `emails/BillingFailureEmail.tsx`).
-- The email includes a PDF attachment [from LimeWire](https://limewire.com/d/26b1y#xWyJKs46zP) and a link to this repo in the footer.
+- The email includes a PDF attachment [Example](https://limewire.com/d/26b1y#xWyJKs46zP) and a link to this repo in the footer.
 
 ---
 
