@@ -25,7 +25,7 @@ export async function POST(request) {
             <h1>Payment failed</h1>
             <p>Hi ${customerName},</p>
             <p>We tried to charge you ${amount} but the payment failed: ${failureReason}.</p>
-            <p>You can download your invoice: ${body.attachmentFilename || 'Billingfailure.pdf'}</p>
+            <p>The invoice for the failed payment is attached.}</p>
             <p>Please update your payment information to continue enjoying our services.</p>
             <hr/>
             <p style="font-size:12px;color:#666">Acme Billing Team</p>
