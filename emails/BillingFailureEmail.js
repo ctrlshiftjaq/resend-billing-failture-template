@@ -7,7 +7,7 @@ export function BillingFailureEmail({ customerName = 'Customer', amount = '$0.00
         React.createElement('h1', null, 'Payment failed'),
         React.createElement('p', null, `Hi ${customerName},`),
         React.createElement('p', null, `We tried to charge you ${amount} but the payment failed: ${failureReason}.`),
-        React.createElement('p', null, `You can download your invoice: ${attachmentFilename}`),
+        React.createElement('p', null, `The invoice for the failed payment is attached.`),
         React.createElement('p', null, `Please update your payment information to continue enjoying our services.`),
         React.createElement('hr', null),
         React.createElement('p', { style: { fontSize: 12, color: '#666' } }, 'Acme Billing Team')
