@@ -2,6 +2,8 @@
 # Node
 node_modules/
 
+react-email-starter
+
 # Next.js build
 .next/
 out/
@@ -19,3 +21,23 @@ pnpm-debug.log*
 tmp/
 tmp/*
 scripts/preview-email.js
+
+
+yarn.lock
+
+# Environment
+.env
+.env.*
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Swap files
+*.swp

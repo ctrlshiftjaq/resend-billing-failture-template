@@ -1,7 +1,7 @@
-# Sending a Billing Failure Email with Attachment using Next.js, React Email & Resend
+# Sending a Billing Failure Email with Attachment using Next.js & Resend
 
-This is ab example project showing how to send a **billing failure email** using [React Email](https://react.email/) and [Resend](https://resend.com/).  
-It includes a styled email template, a PDF attachment, and links to this repo in the email footer.
+This is an example project showing how to send a **billing failure email** using [Resend](https://resend.com/).  
+It includes a styled HTML email template, a PDF attachment, and links to this repo in the email footer.
 
 ---
 
@@ -49,8 +49,8 @@ The endpoint will send a sample billing failure email (with attachment) to a tes
 ## How does it work?
 
 - The API route (`/api/send-billing-failure`) sends a pre-filled, example billing failure email.
-- The email template is written in React Email (see `emails/BillingFailureEmail.tsx`).
- - The email includes a PDF attachment and a link to this repo in the footer
+- The email HTML is built directly in the route handler.
+- The email includes a PDF attachment and a link to this repo in the footer
 
 ---
 
