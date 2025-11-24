@@ -57,3 +57,9 @@ curl http://localhost:3000/api/send-billing-failure
 2. **API Route** (`app/api/send-billing-failure/route.ts`) - This sends the email when you visit the URL
 3. **Resend Client** (`lib/resend.ts`) - Connects to Resend to actually send the email
 
+
+## How it looks like
+
+
+<img width="638" height="322" alt="image" src="https://github.com/user-attachments/assets/5f1b3739-b407-4fa5-a585-375bdc338baa" />
+
